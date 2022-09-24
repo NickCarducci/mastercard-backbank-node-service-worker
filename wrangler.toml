@@ -1,9 +1,8 @@
 compatibility_date = "2022-07-22"
 name = "node-dev"
-type = "javascript"
 account_id = "9ddca7c9df604668fc6d14f079b2f066" 
 
-main = "build/worker/shim.mjs"
+main = "src/index.mjs"
 
 [env.production]
 kv_namespaces = [
