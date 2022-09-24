@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "mastercard-backbank",
+  "name": "mastercard-backbank-node",
   "version": "1.0.0",
   "description": "debit for vau.money",
   "main": "index.js",
