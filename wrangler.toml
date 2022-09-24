@@ -1,0 +1,19 @@
+compatibility_date = "2022-07-22"
+name = "mastercard-backbank-node-dev"
+
+account_id = "9ddca7c9df604668fc6d14f079b2f066" 
+
+workers_dev = true
+zone_id = "6202e995eadc857cd8e97e8ba608286d" 
+
+main = "build/worker/shim.mjs"
+
+kv_namespaces = [
+  {binding="backbank",id="e4609a2b6fa943aab9e44185293dae3a"}
+]
+[env.production]
+name = "mastercard-backbank-node"
+route = { pattern = "https://sausage.saltbank.org/api*", zone_id = "6202e995eadc857cd8e97e8ba608286d" }
+
+[build]
+command = "worker-build --release" 

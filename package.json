@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "mastercard-backbank",
+  "version": "1.0.0",
+  "description": "debit for vau.money",
+  "main": "index.js",
+  "scripts": {
+    "build": ""
+  },
+  "author": "Nick Carducci nmcarducci@gmail.com",
+  "license": "",
+  "dependencies": {
+    "mastercard-locations": "^1.0.3"
+  }
+}

@@ -1,0 +1,1 @@
+`npm install mastercard-locations --save`
