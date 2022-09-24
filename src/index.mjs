@@ -1,4 +1,4 @@
-import locations from "../node_modules/mastercard-locations";//require('mastercard-locations');
+import locations from "../node_modules/mastercard-locations/index.js";//require('mastercard-locations');
 export default {
     async fetch(request, env /*, ctx*/) {
         //Response class must be a promise
