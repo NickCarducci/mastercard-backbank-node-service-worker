@@ -41,6 +41,8 @@ async function noException(req, env) {
     //https://linc.sh/blog/durable-objects-in-production
     //const clientId = request.headers.get("cf-connecting-ip");
     var allowedOrigins = [
+        "https://sausage.saltbank.org",
+        "https://i7l8qe.csb.app",
         "https://vau.money",
         "https://jwi5k.csb.app",
         "https://mastercard-backbank.backbank.workers.dev"
