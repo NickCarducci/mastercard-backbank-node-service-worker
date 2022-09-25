@@ -11,7 +11,8 @@
   "author": "Nick Carducci nmcarducci@gmail.com",
   "license": "",
   "dependencies": {
-    "mastercard-locations": "^1.0.3"
+    "mastercard-locations": "^1.0.3",
+    "url": "^0.11.0"
   },
   "false": {
     "@rollup/plugin-commonjs": "^17.0.0",
