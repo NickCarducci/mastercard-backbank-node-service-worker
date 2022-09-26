@@ -5,8 +5,8 @@
   "description": "debit for vau.money",
   "main": "index.js",
   "scripts": {
-    "build": "",
-    "build1": "rollup -c"
+    "build1": "",
+    "build": "rollup -c"
   },
   "author": "Nick Carducci nmcarducci@gmail.com",
   "license": "",
@@ -14,9 +14,10 @@
     "mastercard-locations": "^1.0.3",
     "url": "^0.11.0"
   },
-  "false": {
+  "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.1.0",
     "rollup": "^2.36.1"
-  }
+  },
+  "false":{}
 }

@@ -2,11 +2,11 @@ import { nodeResolve } from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 
 export default {
-  input: 'src/index.mjs',
+  input: 'node_modules/mastercard-locations/index.js',
   output: {
     exports: 'named',
     format: 'es',
-    file: 'dist/index.mjs'
+    file: 'wrangler_modules/mastercard-locations/index.mjs'
   },
   plugins: [
     commonjs(),

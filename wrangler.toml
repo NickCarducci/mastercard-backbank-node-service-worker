@@ -1,8 +1,9 @@
 compatibility_date = "2022-07-22"
 name = "node-dev"
 account_id = "9ddca7c9df604668fc6d14f079b2f066" 
-
-main = "dist/index.mjs"
+# node_compat = true
+main = "src/index.mjs"
+exclude = ["node_modules"]
 
 [env.production]
 kv_namespaces = [
